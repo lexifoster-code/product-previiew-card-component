@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Montserrat&display=swap');
+ 
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    background-color: rgb(213, 206, 198);
+}
+
+.container{
+    background-color: rgb(213, 206, 198);
+    display:flex;
+    position: relative;
+    top:175px;
+    left : 275px;
+    
+}
+
+.bottle{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px;
+    
+}
+
+
+.card-container{
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 10px;
+    display: flex;
+    width:650px;
+    height: 400px;
+  
+
+}
+
+.heading{
+    font-weight: 100 ;
+    font-size: 16px;
+    color: hsl(227, 12%, 47%);
+    font-family: 'Montserrat' ,sans-serif ;
+    letter-spacing: 5px;
+    padding: 20px;
+    
+   
+}
+
+h1{
+    padding-left: 5%;
+    font-weight:800;
+    font-family: 'fraunces' , serif;
+}
+.main-p{
+    color: hsl(227, 12%, 47%);
+    padding-left:5%;
+    font-size: 16px;
+}
+
+.add{
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: hsl(158, 36%, 37%);
+    color:hsl(0, 0%, 100%);
+}
+.icon{
+    padding: 5px;
+}
+
+.price{
+    display: flex;
+    margin:15px;
+    padding:15px;
+   
+}
+
+.sale-price{
+    color:hsl(158, 36%, 37%);
+    font-family: 'fraunces' , serif;
+    font-size:35px;
+    padding:5px;
+}
+
+.original-price{
+    text-decoration: line-through;
+    color:hsl(228, 10%, 50%);
+    font-size:15px
+
+}
+.attribution{
+    position: relative;
+    top: 180px;
+}
+
+@media screen and (max-width:615px){
+    .bottle{
+        border-bottom-left-radius: 1px;
+        border-bottom-right-radius: none;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        width:350px;
+        height: 255px;
+        
+    }
+    .container{
+       
+       
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        background-color: hsl(0, 0%, 100%);
+        width:350px;
+        height:675px;
+     
+
+    }
+    .heading{
+        font-weight: 100 ;
+        font-size: 16px;
+        color: hsl(227, 12%, 47%);
+        font-family: 'Montserrat' ,sans-serif ;
+        letter-spacing: 5px;
+        padding: 20px;
+        
+       
+    
+}
+
+
+
+}
